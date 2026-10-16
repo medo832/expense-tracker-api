@@ -1,0 +1,22 @@
+# virtual environments
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# databases and local data
+*.db
+*.sqlite3
+
+# secrets
+.env
+
+# office temp files
+~$*
+
+# scratch
+_to_delete/
