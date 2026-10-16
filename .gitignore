@@ -1,0 +1,33 @@
+# virtual environments
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# databases and local data
+*.db
+*.sqlite3
+expenser.json
+
+# secrets
+.env
+
+# office files and temp
+*.docx
+*.pdf
+~$*
+
+# private - not part of the project
+Claude outputs/
+mentor-review.md
+add.py
+backend/
+_to_delete/
+
+# local helper scripts
+git-prepare.bat
+git-push.bat
